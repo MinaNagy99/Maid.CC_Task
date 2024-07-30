@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div  class="profile-card">
+        <img [src]="user?.avatar" alt="User Avatar" class="avatar">
+        <div class="user-info">
+            <h2 class="user-name">{{user?.first_name}} {{user?.last_name}}</h2>
+            <p class="user-id">ID: {{user?.id}}</p>
+            <p class="user-email">{{user?.email}}</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info {
+    padding: 20px;
+}
+
+.user-name {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-id {
+    margin: 10px 0;
+    color: #777;
+}
+
+.user-email {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .profile-card {
+        width: 90%;
+    }
+}
